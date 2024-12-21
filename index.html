@@ -12,19 +12,16 @@
         <div class="navbar navbar-expand-lg">
             <div class="container">
                 <h1 class="text-danger">NetFwit</h1>
-                <nav>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#manu-hamburguer">
+                    <spam class="navbar-toggler-icon navbar-dark"></spam>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="manu-hamburguer">
                     <ul class="navbar-nav nav nav-pills">
                         <li class="nav-item">
-                            <a href="#" class="nav-link active bg-danger">Home</a>
+                            <a href="#carousel-controles" class="nav-link active text-white">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#filmes" class="nav-link">Filmes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Menu</a>
+                            <a href="#filmes" class="nav-link text-white">Filmes</a>
                         </li>
                     </ul>
                 </nav>
@@ -55,77 +52,80 @@
             <button type="button" data-bs-target="#carousel-controles" data-bs-slide-to="2"></button>
         </div>
     </div>
-    <div id="filmes" class="container mt-5">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="card mb-3">
-                    <img src="./image/filme1.jpg"/>
-                    <div class="card-body">
-                        <h4 class="card-title">VINGADORES - GUERRA INFINITA</h4>
-                        <p class="card-text">
-                            Em Vingadores: Guerra Infinita, Thanos (Josh Brolin) enfim chega à Terra, disposto a reunir as Joias do Infinito. Para enfrentá-lo, os Vingadores precisam unir forças com os Guardiões da Galáxia, ao mesmo tempo em que lidam com desavenças ...
-                        </p>
-                        <a href="#" class="btn btn-danger"> TRAILER</a>
+
+    <div data-bs-spy="scroll">
+        <div id="filmes" class="container mt-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-3">
+                        <img src="./image/filme1.jpg"/>
+                        <div class="card-body">
+                            <h4 class="card-title">VINGADORES - GUERRA INFINITA</h4>
+                            <p class="card-text">
+                                Em Vingadores: Guerra Infinita, Thanos (Josh Brolin) enfim chega à Terra, disposto a reunir as Joias do Infinito. Para enfrentá-lo, os Vingadores precisam unir forças com os Guardiões da Galáxia, ao mesmo tempo em que lidam com desavenças ...
+                            </p>
+                            <a href="#" class="btn btn-danger"> TRAILER</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="card mb-3">
-                    <img src="./image/filme2.png">
-                    <div class="card-body">
-                        <h4 class="card-title">REBEL MOON</h4>
-                        <p class="card-text">
-                            Em Rebel Moon: Parte 1 - Corte do Diretor, Zack Snyder expande sua épica saga de ficção científica, contando a mesma história que foi vista em Rebel Moon - Capítulo Um: Cálice de Sangue e Rebel Moon - Capítulo Dois: Maldição do Perdão, O Corte do Diretor revela.
-                        </p>
-                        <a href="#" class="btn btn-danger"> TRAILER</a>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-3">
+                        <img src="./image/filme2.png">
+                        <div class="card-body">
+                            <h4 class="card-title">REBEL MOON</h4>
+                            <p class="card-text">
+                                Em Rebel Moon: Parte 1 - Corte do Diretor, Zack Snyder expande sua épica saga de ficção científica, contando a mesma história que foi vista em Rebel Moon - Capítulo Um: Cálice de Sangue e Rebel Moon - Capítulo Dois: Maldição do Perdão, O Corte do Diretor revela.
+                            </p>
+                            <a href="#" class="btn btn-danger"> TRAILER</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="card mb-3">
-                    <img src="./image/filme3.webp">
-                    <div class="card-body">
-                        <h4 class="card-title">CIVIL WEAR</h4>
-                        <p class="card-text">
-                            Dirigido pelo premiado Alex Garland (Ex Machina), Guerra Civil apresenta uma mistura de ação e suspense, ambientado em um futuro não tão distante, quando uma guerra civil se instaura nos Estados Unidos. Neste cenário, uma equipe pioneira de jornalistas de guerra.
-                        </p>
-                        <a href="#" class="btn btn-danger"> TRAILER</a>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-3">
+                        <img src="./image/filme3.webp">
+                        <div class="card-body">
+                            <h4 class="card-title">CIVIL WEAR</h4>
+                            <p class="card-text">
+                                Dirigido pelo premiado Alex Garland (Ex Machina), Guerra Civil apresenta uma mistura de ação e suspense, ambientado em um futuro não tão distante, quando uma guerra civil se instaura nos Estados Unidos. Neste cenário, uma equipe pioneira de jornalistas de guerra.
+                            </p>
+                            <a href="#" class="btn btn-danger"> TRAILER</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 ">
-                <div class="card">
-                    <img src="./image/filme4.webp"/>
-                    <div class="card-body">
-                        <h4 class="card-title">CODE - 8</h4>
-                        <p class="card-text">
-                            Nesta sequência de Code 8: Renegados, uma jovem luta para conseguir justiça por seu irmão que foi assassinado por políciais corruptos. Para isso, ela conta com a ajuda de um ex-presidiário (Robbie Amell) e de seu ex-parceiro (Stephen Amell).
-                        </p>
-                        <a href="#" class="btn btn-danger"> TRAILER</a>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="card">
+                        <img src="./image/filme4.webp"/>
+                        <div class="card-body">
+                            <h4 class="card-title">CODE - 8</h4>
+                            <p class="card-text">
+                                Nesta sequência de Code 8: Renegados, uma jovem luta para conseguir justiça por seu irmão que foi assassinado por políciais corruptos. Para isso, ela conta com a ajuda de um ex-presidiário (Robbie Amell) e de seu ex-parceiro (Stephen Amell).
+                            </p>
+                            <a href="#" class="btn btn-danger"> TRAILER</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="card">
-                    <img src="./image/filme5.webp">
-                    <div class="card-body">
-                        <h4 class="card-title">ANIQUILAÇÃO</h4>
-                        <p class="card-text">
-                            Uma bióloga (Natalie Portman) se junta a uma expedição secreta com outras três mulheres em uma região conhecida como Área X, um local isolado da civilização onde as leis da natureza não se aplicam. Lá, ela precisa lidar...
-                        </p>
-                        <a href="#" class="btn btn-danger"> TRAILER</a>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="./image/filme5.webp">
+                        <div class="card-body">
+                            <h4 class="card-title">ANIQUILAÇÃO</h4>
+                            <p class="card-text">
+                                Uma bióloga (Natalie Portman) se junta a uma expedição secreta com outras três mulheres em uma região conhecida como Área X, um local isolado da civilização onde as leis da natureza não se aplicam. Lá, ela precisa lidar...
+                            </p>
+                            <a href="#" class="btn btn-danger"> TRAILER</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="card">
-                    <img src="./image/filme6.jpg">
-                    <div class="card-body">
-                        <h4 class="card-title">THE IRON GIANT</h4>
-                        <p class="card-text">
-                            Em plenos anos 50, vive no Maine o jovem Hogarth. Quando ele repentinamente encontra um gigantesco robô de origem desconhecida, logo um forte laço de amizade se forma entre os dois. Porém, assim que a existência do robô ...
-                        </p>
-                        <a href="#" class="btn btn-danger"> TRAILER</a>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="./image/filme6.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">THE IRON GIANT</h4>
+                            <p class="card-text">
+                                Em plenos anos 50, vive no Maine o jovem Hogarth. Quando ele repentinamente encontra um gigantesco robô de origem desconhecida, logo um forte laço de amizade se forma entre os dois. Porém, assim que a existência do robô ...
+                            </p>
+                            <a href="#" class="btn btn-danger"> TRAILER</a>
+                        </div>
                     </div>
                 </div>
             </div>
